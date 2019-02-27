@@ -1,0 +1,11 @@
+framework module ssigmaapiswiftsample {
+  umbrella header "ssigmaapiswiftsample.h"
+
+  export *
+  module * { export * }
+}
+
+module ssigmaapiswiftsample.Swift {
+    header "ssigmaapiswiftsample-Swift.h"
+    requires objc
+}
