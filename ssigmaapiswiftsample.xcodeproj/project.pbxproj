@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		43300107222718BB001F2264 /* ssigmaapiswiftsample.h in Headers */ = {isa = PBXBuildFile; fileRef = 43300105222718BB001F2264 /* ssigmaapiswiftsample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4330010E222718DA001F2264 /* hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4330010D222718DA001F2264 /* hello.swift */; };
+		438401462227A8D3009F451D /* markethub.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438401412227A8D2009F451D /* markethub.grpc.swift */; };
+		438401472227A8D3009F451D /* market.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438401422227A8D3009F451D /* market.pb.swift */; };
+		438401482227A8D3009F451D /* orderbook.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438401432227A8D3009F451D /* orderbook.pb.swift */; };
+		438401492227A8D3009F451D /* markethub.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438401442227A8D3009F451D /* markethub.pb.swift */; };
+		4384014A2227A8D3009F451D /* trade.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438401452227A8D3009F451D /* trade.pb.swift */; };
+		438401502227AD9B009F451D /* CgRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4384014C2227AD9B009F451D /* CgRPC.framework */; };
+		438401512227AD9B009F451D /* SwiftGRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4384014D2227AD9B009F451D /* SwiftGRPC.framework */; };
+		438401522227AD9B009F451D /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4384014E2227AD9B009F451D /* SwiftProtobuf.framework */; };
+		438401532227AD9B009F451D /* BoringSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4384014F2227AD9B009F451D /* BoringSSL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +25,15 @@
 		43300105222718BB001F2264 /* ssigmaapiswiftsample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ssigmaapiswiftsample.h; sourceTree = "<group>"; };
 		43300106222718BB001F2264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4330010D222718DA001F2264 /* hello.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello.swift; sourceTree = "<group>"; };
+		438401412227A8D2009F451D /* markethub.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = markethub.grpc.swift; sourceTree = "<group>"; };
+		438401422227A8D3009F451D /* market.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = market.pb.swift; sourceTree = "<group>"; };
+		438401432227A8D3009F451D /* orderbook.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = orderbook.pb.swift; sourceTree = "<group>"; };
+		438401442227A8D3009F451D /* markethub.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = markethub.pb.swift; sourceTree = "<group>"; };
+		438401452227A8D3009F451D /* trade.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = trade.pb.swift; sourceTree = "<group>"; };
+		4384014C2227AD9B009F451D /* CgRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CgRPC.framework; path = Carthage/Build/iOS/CgRPC.framework; sourceTree = "<group>"; };
+		4384014D2227AD9B009F451D /* SwiftGRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftGRPC.framework; path = Carthage/Build/iOS/SwiftGRPC.framework; sourceTree = "<group>"; };
+		4384014E2227AD9B009F451D /* SwiftProtobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftProtobuf.framework; path = Carthage/Build/iOS/SwiftProtobuf.framework; sourceTree = "<group>"; };
+		4384014F2227AD9B009F451D /* BoringSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BoringSSL.framework; path = Carthage/Build/iOS/BoringSSL.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,6 +41,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				438401502227AD9B009F451D /* CgRPC.framework in Frameworks */,
+				438401512227AD9B009F451D /* SwiftGRPC.framework in Frameworks */,
+				438401522227AD9B009F451D /* SwiftProtobuf.framework in Frameworks */,
+				438401532227AD9B009F451D /* BoringSSL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,6 +56,7 @@
 			children = (
 				43300104222718BB001F2264 /* ssigmaapiswiftsample */,
 				43300103222718BB001F2264 /* Products */,
+				4384014B2227AD9A009F451D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -48,11 +71,27 @@
 		43300104222718BB001F2264 /* ssigmaapiswiftsample */ = {
 			isa = PBXGroup;
 			children = (
+				438401422227A8D3009F451D /* market.pb.swift */,
+				438401412227A8D2009F451D /* markethub.grpc.swift */,
+				438401442227A8D3009F451D /* markethub.pb.swift */,
+				438401432227A8D3009F451D /* orderbook.pb.swift */,
+				438401452227A8D3009F451D /* trade.pb.swift */,
 				43300105222718BB001F2264 /* ssigmaapiswiftsample.h */,
 				43300106222718BB001F2264 /* Info.plist */,
 				4330010D222718DA001F2264 /* hello.swift */,
 			);
 			path = ssigmaapiswiftsample;
+			sourceTree = "<group>";
+		};
+		4384014B2227AD9A009F451D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4384014F2227AD9B009F451D /* BoringSSL.framework */,
+				4384014C2227AD9B009F451D /* CgRPC.framework */,
+				4384014D2227AD9B009F451D /* SwiftGRPC.framework */,
+				4384014E2227AD9B009F451D /* SwiftProtobuf.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +116,7 @@
 				433000FE222718BB001F2264 /* Sources */,
 				433000FF222718BB001F2264 /* Frameworks */,
 				43300100222718BB001F2264 /* Resources */,
+				438401542227ADAE009F451D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -129,12 +169,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		438401542227ADAE009F451D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ssigmaapiswiftsample.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftGRPC.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftProtobuf.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/BoringSSL.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CgRPC.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		433000FE222718BB001F2264 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				438401492227A8D3009F451D /* markethub.pb.swift in Sources */,
+				438401482227A8D3009F451D /* orderbook.pb.swift in Sources */,
+				438401462227A8D3009F451D /* markethub.grpc.swift in Sources */,
+				4384014A2227A8D3009F451D /* trade.pb.swift in Sources */,
 				4330010E222718DA001F2264 /* hello.swift in Sources */,
+				438401472227A8D3009F451D /* market.pb.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +343,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ssigmaapiswiftsample/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,6 +373,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ssigmaapiswiftsample/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (

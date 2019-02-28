@@ -1,0 +1,75 @@
+{
+  "Mac" : [
+    {
+      "name" : "SwiftGRPC",
+      "hash" : "1c1350250a09868d26d54c45c3d313d3de5efb8feea8d1ff87c33aa08ce70089"
+    },
+    {
+      "name" : "BoringSSL",
+      "hash" : "94193579eb5e35d4fe0a97f3b08c277d378834708110b05c94bf673b18c01acc"
+    },
+    {
+      "name" : "CgRPC",
+      "hash" : "e698542272b4998199bbca5fd0a0bb426758e6817dc6c06ac5c743cd074db05d"
+    },
+    {
+      "name" : "SwiftProtobuf",
+      "hash" : "14c7a1907883446ae6c639308abd294419c52ddd88555eac3fe3b07f13dd8081"
+    }
+  ],
+  "watchOS" : [
+    {
+      "name" : "SwiftGRPC",
+      "hash" : "b5db545c0fc373bd5a769f11c8ab648ddc97654fd5a98ab9ca5e59b178703dec"
+    },
+    {
+      "name" : "BoringSSL",
+      "hash" : "17e5b657c55396f46e0cdb9b2ea6ff034f4589558e9d1cda9fb84548e0bcc658"
+    },
+    {
+      "name" : "CgRPC",
+      "hash" : "1d6fdd91f30301bc8923dbb3327f8b9272ccba4b0a66e08af304cb7ee33cdaff"
+    },
+    {
+      "name" : "SwiftProtobuf",
+      "hash" : "b575c1f9c662c354f7d532e7fe9c18c27c638b97c30b2d5bcf9fcb8d4ade9640"
+    }
+  ],
+  "tvOS" : [
+    {
+      "name" : "SwiftGRPC",
+      "hash" : "d8f079808b2de35a89651c725c393e77ba335933ff3295ca8b494343234ba08a"
+    },
+    {
+      "name" : "CgRPC",
+      "hash" : "206d7caccebd35a81adcef8e12727ee4a8dc821be2100e7f9dd020dbeb4f8352"
+    },
+    {
+      "name" : "BoringSSL",
+      "hash" : "7b63a15e47a58a255ca7f8fa448e663cc3ab1b1089d259035b9038c73f40d493"
+    },
+    {
+      "name" : "SwiftProtobuf",
+      "hash" : "81aa274a502b6de34b89589b1c63ed93a23911657626f6f85de069aff0154bfd"
+    }
+  ],
+  "commitish" : "ac1939e98bce1717bea6dea890d24ca4d335d7eb",
+  "iOS" : [
+    {
+      "name" : "SwiftGRPC",
+      "hash" : "b2e93a650cbfda8a184c6700af405aaf7a1a5403551ac5f0a80aa8f2d7901899"
+    },
+    {
+      "name" : "BoringSSL",
+      "hash" : "1a6ae77494d7973e23fdf8c9f2a5e651ac995fc79e3a7b784526cb8db159cf78"
+    },
+    {
+      "name" : "CgRPC",
+      "hash" : "057b4642d68e91ba6ed0fbc2ef60bc7897d9f392b3143c410b7ddc7ba9798f32"
+    },
+    {
+      "name" : "SwiftProtobuf",
+      "hash" : "e764f64d8809e0306cd54312ff58edf0503044a0f2f1fbd87cd97690e7a95959"
+    }
+  ]
+}
