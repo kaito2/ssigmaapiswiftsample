@@ -93,7 +93,7 @@ internal protocol Ssigmaapi_Markethub_V1_MarketHubServiceV1Service: ServiceClien
 
 }
 
-internal final class Ssigmaapi_Markethub_V1_MarketHubServiceV1ServiceClient: ServiceClientBase, Ssigmaapi_Markethub_V1_MarketHubServiceV1Service {
+public final class Ssigmaapi_Markethub_V1_MarketHubServiceV1ServiceClient: ServiceClientBase, Ssigmaapi_Markethub_V1_MarketHubServiceV1Service {
   /// Asynchronous. Server-streaming.
   /// Send the initial message.
   /// Use methods on the returned object to get streamed responses.
