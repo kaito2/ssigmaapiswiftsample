@@ -11,3 +11,7 @@ import Foundation
 public func greet() {
     print("hello")
 }
+
+public func hoge() {
+    print("huga")
+}

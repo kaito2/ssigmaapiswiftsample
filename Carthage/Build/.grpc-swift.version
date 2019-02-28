@@ -2,74 +2,74 @@
   "Mac" : [
     {
       "name" : "SwiftGRPC",
-      "hash" : "874dcf6c40877da0cb59fded331d1edd53049c6372d80526de895673098addcf"
+      "hash" : "36b93d757c61f0aef2bf0b21eceb2d8ab90e40284eb0c030d5dcc785b73cf6c7"
     },
     {
       "name" : "BoringSSL",
-      "hash" : "d586c575942444130bd6ede10061c8e59b1264b57d4c9eb2944d78ed13d66a0b"
+      "hash" : "ea188630f2d6d647a9ece4b7b75d856df057be0b0501eb321e01ebbcfcf52449"
     },
     {
       "name" : "CgRPC",
-      "hash" : "37651520fc7d5813cef0ab6832cce5f237ceca0fd6c6a6b2f5b59dc4f33a3fa3"
+      "hash" : "20fedbbc416b48c912bdcda0507bc3a96a7f2a8259be78ed3d7c1f51fc9e0d62"
     },
     {
       "name" : "SwiftProtobuf",
-      "hash" : "9dabea35d1b6acfabd404e23f5a3bddf4994c2b743110f458daef05a0f910a27"
+      "hash" : "8dec2a51c77bf34786a9f5aab89e2c83b8e9788e7b1822cc42dd40cd64813e30"
     }
   ],
   "watchOS" : [
     {
       "name" : "SwiftGRPC",
-      "hash" : "b7b51d53fed073defff220705921cadd948b1f7b891dc05ebd96f54574276c6c"
-    },
-    {
-      "name" : "CgRPC",
-      "hash" : "f67500c7f47dcde4dd960705b66bd0411bc665e28f46f3785fe4df30c0d42705"
+      "hash" : "38fcf5f4afe09e8518da822cee28a2f27aac42b818fc3cc0975e78a15ef4d1cd"
     },
     {
       "name" : "BoringSSL",
-      "hash" : "774cea12e74d4906cdf0a267cb76100403e48c0ba761eb8b7d10181fc804b30a"
+      "hash" : "94aae5c05b812bc266fa391a75e78f2348913f152e3f59c66e626971dd91c7c0"
+    },
+    {
+      "name" : "CgRPC",
+      "hash" : "88861ec58adabd8f959c0cb0434e1a2d69bd1fea07982206f6092355640fa6a8"
     },
     {
       "name" : "SwiftProtobuf",
-      "hash" : "c54f81427abe74beba7677246b1a2d484f7ec3e67442866e749c30332da27495"
+      "hash" : "18f7efcba3331ec82eb820dc43f1cbd3669e6cb439edc8b3cb159ea290c79702"
     }
   ],
   "tvOS" : [
     {
       "name" : "SwiftGRPC",
-      "hash" : "0880217a0d9357c42313a0a6243c67278dba1cd1f3ce9cd1a7ca80cbc48d5bd9"
+      "hash" : "fae73531f10bc2c58df839dbe7eb3dd5087e8d07d6e024e79851141de2a96d50"
     },
     {
       "name" : "BoringSSL",
-      "hash" : "3783776f0bb49c772e4cef20c208bff7beac29f53a08ef0b2eb5f7cf45e0125b"
+      "hash" : "3957c3e9cd77487fa58a2b2698343e7f03e0f6b4c072502d102aa3a5fb9ea5e7"
     },
     {
       "name" : "CgRPC",
-      "hash" : "cda469934cf448c5ffba0cb7a6c2e6a9e95b18b3c87d5414038506bc6b6535ed"
+      "hash" : "28c9a963c8e3fa7f57ca102a6edf78bfae668c854476236ec65326931500320e"
     },
     {
       "name" : "SwiftProtobuf",
-      "hash" : "91dc2e3dd5e99ddef8d9f865c6442d4f78f5162b017e590311ac982d84eb8a7a"
+      "hash" : "12f5f85a9726ccafd8374c3704029f145b6c30acac2116857fa27abfaa26bfed"
     }
   ],
   "commitish" : "ac1939e98bce1717bea6dea890d24ca4d335d7eb",
   "iOS" : [
     {
       "name" : "SwiftGRPC",
-      "hash" : "47014da764f17bc0d0cf3eacd4902c9807b34f8252b58d34286f5c2e629092fa"
+      "hash" : "7980ca1a96b3834ac3f4796a911ac02c3d10393f93fd2009fd57f4d28f890937"
     },
     {
       "name" : "BoringSSL",
-      "hash" : "8e642363a808ec640ff9e3c5534e4cb25001105b5025723e3e995aab5a74c8dc"
+      "hash" : "93bd0d5c5b5a1ef94b1ef160ad74540bf7a631197768d7f03a4b3454c17e3821"
     },
     {
       "name" : "CgRPC",
-      "hash" : "ec67f7292a6f3ce37ca5593a9c9b56b3a42a6f222c7ba02ac1d5646442f328c8"
+      "hash" : "e6dcd3c3bde2593206fd210405af2f0488b38e2d2a67a0903f2a379335dcfbaf"
     },
     {
       "name" : "SwiftProtobuf",
-      "hash" : "19c2ca6a355d5cbccd723dd3f2bd33ec5e64d4002005edbb7433307423313804"
+      "hash" : "cdb50f04d8363a2744c99a806fb6a63bee6d85c1e5f599e4e7bdf46ccd68f3ea"
     }
   ]
 }
